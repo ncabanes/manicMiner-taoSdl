@@ -105,10 +105,10 @@ public class Game
 
 
     // --- Checking collisons with enemies and background ---
-    void checkCollision()
+    void checkCollisions()
     {
         // Collisions between player and background: get points or lose life
-        int pointsFromMoving = gameScreen.ObtenerPuntosPosicion(
+        int pointsFromMoving = gameScreen.GetPointsFromPos(
           player.GetX(),
           player.GetY(),
           player.GetX() + player.GetWidth(),
@@ -196,7 +196,7 @@ public class Game
         {
             checkInput();
             moveElements();
-            checkCollision();
+            checkCollisions();
             drawElements();
             pauseTillNextFrame();
         } while (!gameFinished);

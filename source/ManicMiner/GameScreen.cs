@@ -65,7 +65,7 @@ public class GameScreen
        return currentLevel.CanMoveTo(x, y, xmax, ymax); 
    }
 
-   public int ObtenerPuntosPosicion(int x, int y, int xmax, int ymax)
+   public int GetPointsFromPos(int x, int y, int xmax, int ymax)
    {
        return currentLevel.GetPointsFromPos(x, y, xmax, ymax); 
    }
