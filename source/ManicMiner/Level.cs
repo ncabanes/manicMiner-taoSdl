@@ -73,8 +73,8 @@ public class Level
 
     public void Restart()
     {
-        for (int fila = 0; fila < mapHeight; fila++)
-            levelData[fila] = startingLevelData[fila];
+        for (int row = 0; row < mapHeight; row++)
+            levelData[row] = startingLevelData[row];
     }
 
     public void DrawOnHiddenScreen()
