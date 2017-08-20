@@ -1,0 +1,20 @@
+Manic Miner - Tao.Sdl
+
+Changes so far:
+
+0.20: Mostly the same as the 2011 version (translated to English, 
+      1024 pixels wide):
+
+  - 20 levels, with contents distribution similar (but not exact) to the 
+    original ones, and still missing features, such as sliding floors and 
+    fragile floors.
+    
+  - The player can move left, right and jump.
+  
+  - Enemies can move side to side or upside-down.
+  
+  - If the player picks all the items, they can advance to the next level.
+  
+  - If the player hits an enemy of an obstacle, they loose a life.
+  
+  - A couple of cheats included. For example, try to press T+N.

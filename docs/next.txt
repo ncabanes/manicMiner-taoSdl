@@ -1,0 +1,19 @@
+Manic Miner - Tao.Sdl
+
+Next improvements expected:
+
+- Friendlier transitions (for example, when losing a life).
+
+- Position and speed of the enemies more similar to the original game.
+
+- Ending screen
+
+- Air limit
+
+- Sliding floors.
+
+- Fragile floors.
+
+- Two sets of images: classic ones and modernized ones.
+
+- More levels, user definable?
